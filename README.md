@@ -6,15 +6,16 @@ Vector2D is a module for the BlitzMax language, and provides basic 2D vector mat
 Documentation
 -------------------------------------------------------------------------------
 
-Documentation is currently viewable on the [project's wiki](http://wiki.github.com/nilium/lugi.mod/).
+Documentation is currently viewable on the [project's wiki](http://wiki.github.com/wiebow/vector2d.mod/).
 
 Installation
 -------------------------------------------------------------------------------
 
-To install this module, put the vector2d.mod folder in blitzmax/mod/wdw.mod. You can do this in the following ways:
+All my modules must be put in a subfolder of `Blitzmax/mod/wdw.mod`.
+To install this module, put the `vector2d.mod` folder in `Blitzmax/mod/wdw.mod`. You can do this in the following ways:
 
 1. Clone the repository into your `BlitzMax/mod/wdw.mod` directory using `git clone git://github.com/wiebow/vector2d.mod.git`
-2. Click the 'Download Source' button at the top of the Source section of the GitHub repository and extract this into your `BlitzMax/mod` directory.
+2. Click the 'Download Source' button at the top of the Source section of the GitHub repository and extract this into your `BlitzMax/mod/wdw.mod` directory.
 
 After this, simply run `bmk makemods wdw.vector2d` or rebuild the module from your IDE.
 
