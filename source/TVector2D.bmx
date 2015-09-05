@@ -92,6 +92,15 @@ Type TVector2D
 		_x = x
 		_y = y
 	End	Method
+	
+	
+	rem
+	bbdoc: Sets this vector to passed vector.
+	endrem
+	Method SetV(v:TVector2D)
+		_x = v.GetX()
+		_y = v.GetY()
+	End Method	
 
 
 	rem
